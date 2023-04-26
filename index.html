@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row justify-content-center align-items-center g-2 mt-5">
+    <div class="col-md-6 mx-auto">
+      <div class="card">
+        <img class="card-img-top" src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202303/abans-holdings-shares-fall-19-on-debut-ep_1-sixteen_nine.jpeg" alt="Title">
+        <div class="card-body text-center">
+          <h4 class="card-title">Search</h4>
+          <form action="/stock/report" method="post">
+            <div class="d-flex justify-content-center align-items-center flex-column mt-3">
+              <label for="company_name">Stock Name</label>
+              <input type="text" id="company_name" name="company_name" list="stocks">
+              <datalist id="stocks">
+                {% for item in stock_names.values() %}
+                   <option value="{{item['symbol']}}"> {{ item['name'] }}</option>
+                {% endfor %}
+                
+              </datalist>
+            </div>
+            <button class="btn btn-primary mt-3">Analyze</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
