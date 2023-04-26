@@ -10,3 +10,17 @@ The data used for this project is not static, therefore it is fetched from API t
 Summary:
 This is my first individual project with advancement towards Data Analysis and visualisation, The files uploaded on 26-04-2023 serve as the first commit of the entire project consisting of the simple user inputs and visualisation.
 The further commits shall be introducing concepts of ML for prediction of prices and also a few customisation modules for users to make a portfolio for selves.
+
+
+Screenshots:
+
+Main Page:-
+![facs1](https://user-images.githubusercontent.com/93461617/234476986-0b97759d-750e-424f-80ed-6a882eb72460.png)
+
+Selection Menu:-
+![facs2](https://user-images.githubusercontent.com/93461617/234477142-7d9a0090-db3d-4829-854d-67a156d29bcd.png)
+
+Visualizations Page:
+![facs3](https://user-images.githubusercontent.com/93461617/234477287-95c7d4c5-ea8d-415f-b672-44fa4b3caa66.png)
+
+Credits: I would like to thank my teacher Mr. Zaid Kamil for his constant support throughtout the entire making of the project.
